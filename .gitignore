@@ -26,3 +26,5 @@ replay_pid*
 build/
 run/
 run-data/
+.idea/
+.gradle/
