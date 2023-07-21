@@ -1,4 +1,6 @@
 {
   "key.nktweaker.freecam.toggle": "FreeCamToggle",
-  "category.nktweaker.freecam": "FreeCamera"
+  "category.nktweaker": "NkTweaker",
+  "gui.nktweaker.config": "ConfigGUI",
+  "key.nktweaker.config.open": "OpenConfig"
 }

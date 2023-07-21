@@ -21,6 +21,7 @@ public class KeyMappingEventHandler extends KeyMapping {
         // 注册切换灵魂出窍键位
         LOGGER.debug("Key registration starting");
         event.register(HotKeys.KEY_TOGGLE);
+        event.register(HotKeys.KEY_CONFIG);
         LOGGER.debug("Key registration completed");
     }
 }

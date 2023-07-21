@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 import site.rainbowx.nktweaker.Reference;
 import site.rainbowx.nktweaker.config.HotKeys;
+import site.rainbowx.nktweaker.gui.ConfigScreen;
 
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class KeyEventHandler {
@@ -24,7 +25,10 @@ public class KeyEventHandler {
                 if(event.getAction() == 0) {
                     Player player = Minecraft.getInstance().player;
                     LOGGER.debug("Key toggle is pressed.");
-
+                }
+            } else if (event.getKey() == HotKeys.KEY_CONFIG.getKey().getValue()) {
+                if(event.getAction() == 0) {
+                    Minecraft.getInstance().setScreen(new ConfigScreen());
                 }
             }
         }

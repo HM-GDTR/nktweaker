@@ -1,4 +1,6 @@
 {
   "key.nktweaker.freecam.toggle": "灵魂出窍",
-  "category.nktweaker.freecam": "FreeCam"
+  "category.nktweaker": "NkTweaker",
+  "gui.nktweaker.config": "配置界面",
+  "key.nktweaker.config.open": "打开配置界面"
 }
